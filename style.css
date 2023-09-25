@@ -1,105 +1,78 @@
-
-.big
-{
-    background-image: url(IMG_3585.PNG);
-    display: inline-block;
-    border: 2px;
+.big {
+  display: block;
+  width: 375px;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 
-.nav-cont
+.Logo_ {
+  display: flex;
+  justify-content: space-between flex-start;
+  width: 100%;
+  height: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+#Logo_Name {
+  color: #6070ff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+img {
+  margin-left: 70%;
+}
+
+/* .Header_Section
 {
-    padding-left: 20px;
     display: flex;
-    justify-content: space-between;
-    width: 385px;
-    align-items: center;
-    font-size: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    padding: 30px;
+} */
 
-}   
-
-.comp-cont nav ul
-{
-    display: flex;
-    
+.head {
+  color: #172b4d;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
 }
 
-
-li{
-    list-style-type: none;
-    margin-right: 20px;
+.paragraph_ {
+  display: flex;
+  color: #344563;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  padding-right: 5px;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
 }
 
-.comp-name
-{
-    padding: 5px;
+.paragraph_2 {
+  color: #7f8cff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-left: 20px;
 }
 
-  .topnav
-  {
-    overflow: hidden;
-    background-color:white;
-    position: relative;
-  }
-
-  .topnav #myLinks
-  {
-    display: none;
-  }
-
-  .topnav a
-  {
-    color: #6070FF;
-    padding: 20px 30px;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    display: block;
-    
-  }
-
-  .topnav a.icon
-  {
-    background: white;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav a:hover
-  {
-    background-color: #ddd;
-    color: #9ca6f9;
-  }
-
-  .active
-  {
-    background-color: white;
-    color: #6070FF;
-  }
-
-
-
-.para
-{
-    text-align: justify;
-    font-size: 13px;
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
-    padding-left: 30px;
-    padding-top: 20px;
-    
-}
-
-.p1
-{
-    color: #9ca6f9;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-}
-
-img
-{
-    width: 30%;
+#img_2 {
+  margin-left: 20px;
 }
